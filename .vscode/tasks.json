@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Next.js Dev Server (with PATH)",
+			"type": "shell",
+			"command": "$env:Path='C:\\Program Files\\nodejs;'+$env:Path; & 'C:\\Program Files\\nodejs\\npm.cmd' run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
